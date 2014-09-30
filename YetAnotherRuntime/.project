@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>YetAnotherRuntime</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>de.innovationgate.eclipse.ids.natures.WGARuntime</nature>
+	</natures>
+</projectDescription>

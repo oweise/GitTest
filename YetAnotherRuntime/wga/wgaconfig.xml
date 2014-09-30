@@ -1,0 +1,95 @@
+<WGAConfiguration created="2014-09-30 13:58:03.638 CEST" lastModified="2014-09-30 13:58:03.640 CEST" wgaVersion="7.0.0" runWizard="false">
+   <serverOptions class="java.util.LinkedHashMap">
+      <option name="Basic.ServerName">YetAnotherRuntime</option>
+      <option name="Basic.RootURL">http://localhost:8080</option>
+   </serverOptions>
+   <administrators class="java.util.ArrayList">
+      <administrator uid="7a34eb8f514c2751eeeb7f7d9a9539a8" username="admin" password="QEA+I66gjUZXMuVmmb2rN4QvJow=" encoding="hash"/>
+   </administrators>
+   <adminToolsPortRestrictions class="java.util.ArrayList"/>
+   <authoringDesignAccessPortRestrictions class="java.util.ArrayList"/>
+   <luceneManagerConfiguration enabled="true">
+      <path>${wga.datadir}/#lucene</path>
+      <maxBooleanClauseCount>1024</maxBooleanClauseCount>
+      <maxDocsPerDBSession>5</maxDocsPerDBSession>
+      <indexInterval>5000</indexInterval>
+   </luceneManagerConfiguration>
+   <fileDerivateManagerConfiguration updateProcessEnabled="onlyMasterNode">
+      <updateProcessInterval>5000</updateProcessInterval>
+   </fileDerivateManagerConfiguration>
+   <personalisationConfiguration>
+      <personalisationAgentExclusions class="java.util.ArrayList">
+         <string>Bloglines.*</string>
+         <string>BlogUpdates.*</string>
+         <string>FAST-WebCrawler.*</string>
+         <string>Feedreader.*</string>
+         <string>.*Googlebot.*</string>
+         <string>IPCHECK.*</string>
+         <string>.*ZyBorg.*</string>
+         <string>.*Yahoo! Slurp.*</string>
+         <string>.*Slurp/cat.*</string>
+         <string>msnbot.*</string>
+         <string>NetNewsWire.*</string>
+         <string>NewzCrawler.*</string>
+         <string>NPBot.*</string>
+         <string>SharpReader.*</string>
+         <string>TurnitinBot.*</string>
+         <string>.*nagios-plugins .*</string>
+         <string>TwitterFeed .*</string>
+         <string>.*bingbot/.*</string>
+         <string>Feedfetcher-Google;.*</string>
+         <string>Baiduspider+.*</string>
+         <string>.*YandexBot/.*</string>
+         <string>.*archive.org_bot .*</string>
+         <string>.*DotBot/.*</string>
+         <string>Sosospider+.*</string>
+         <string>Sogou web spider/.*</string>
+         <string>.* MJ12bot/.*</string>
+         <string>.*ScoutJet;.*</string>
+         <string>.*Purebot/.*</string>
+      </personalisationAgentExclusions>
+   </personalisationConfiguration>
+   <designConfiguration>
+      <pollingInterval>1</pollingInterval>
+      <throttlingEnabled>false</throttlingEnabled>
+      <throttlingPeriodMinutes>10</throttlingPeriodMinutes>
+      <designFileCacheSize>1000</designFileCacheSize>
+      <fileExclusions class="java.util.ArrayList"/>
+      <designSources class="java.util.ArrayList"/>
+   </designConfiguration>
+   <coreEventListeners class="java.util.ArrayList"/>
+   <globalDatabaseOptions class="java.util.LinkedHashMap"/>
+   <globalPublisherOptions class="java.util.LinkedHashMap"/>
+   <customErrorPageEnabled>false</customErrorPageEnabled>
+   <mailConfiguration>
+      <enableAdminNotifications>false</enableAdminNotifications>
+      <options class="java.util.LinkedHashMap"/>
+   </mailConfiguration>
+   <domains class="java.util.ArrayList">
+      <domain uid="default" name="default">
+         <defaultManager>managers</defaultManager>
+         <maximumLoginAttempts>5</maximumLoginAttempts>
+         <authenticationSource implClassName="de.innovationgate.webgate.api.auth.FileAuthenticationModule">
+            <options class="java.util.LinkedHashMap">
+               <option name="auth.file">auth.xml</option>
+            </options>
+         </authenticationSource>
+      </domain>
+   </domains>
+   <databaseServers class="java.util.ArrayList"/>
+   <contentDatabases class="java.util.ArrayList"/>
+   <filterMappings class="java.util.ArrayList"/>
+   <schedulerConfiguration>
+      <jobs class="java.util.ArrayList"/>
+   </schedulerConfiguration>
+   <shares class="java.util.ArrayList"/>
+   <virtualHosts class="java.util.ArrayList"/>
+   <proxyConfiguration enabled="false" httpProxyPort="0"/>
+   <clusterConfiguration enabled="false" defaultMasterNode="false">
+      <options class="java.util.LinkedHashMap"/>
+      <implClassName>de.innovationgate.wgpublisher.cluster.SingleNodeClusterService</implClassName>
+   </clusterConfiguration>
+   <httpSessionManagerConfiguration enabled="false">
+      <options class="java.util.LinkedHashMap"/>
+   </httpSessionManagerConfiguration>
+</WGAConfiguration>

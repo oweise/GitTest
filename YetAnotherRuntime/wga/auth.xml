@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users allowanonymous="true">
+  <user name="designer" password="wga" mail="designer@example.com" aliases=""/>
+  <group name="managers" members="designer"/>
+</users>
