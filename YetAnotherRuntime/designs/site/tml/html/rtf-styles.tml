@@ -1,0 +1,8 @@
+showoptions: "all",
+tableStyleList: ["Gray|gray"],
+trStyleList: ["Black|table-header"],
+tdStyleList: ["Green|green"],
+paragraphStyleList: ["Quote|quote"],
+sectionStyleList: ["Source Code|code"],
+linkStyleList: ["Button|button","Video|video"],
+imageStyleList: ["Dia|dia", "Shadow|shadow", "Image Zoomer|image-zoomer", "Right|right", "Left|left"],

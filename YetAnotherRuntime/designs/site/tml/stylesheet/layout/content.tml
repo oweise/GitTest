@@ -1,0 +1,91 @@
+<tml:include ref="jss-to-css@base" o_scope="#content">
+
+	<tml:script>
+		_leftcol_width = 250;
+		_rightcol_width = 250;
+	</tml:script>
+
+	margin_top: 10,
+
+	".leftcol": {
+		width: _leftcol_width
+	},
+
+	".centercol": {
+		background: "white"
+	},
+	
+	".rightcol": {
+		width: _rightcol_width,
+		".box": {
+			background: _base_color_light,
+			padding: 20,
+			margin_bottom: 20,
+			border: "1px solid #FFF281",
+			color: _orange,
+			"h1,h2,h3": {
+				color: _orange
+			}
+		}
+	},
+
+	"&.left .centercol": {
+		margin_left: _leftcol_width,
+		".content-footer": {
+			left: _leftcol_width
+		}
+	},
+	"&.right .centercol": {
+		margin_right: _rightcol_width,
+		".content-footer": {
+			right: _rightcol_width
+		}
+	},
+	
+	".content-header": {
+		background: "#efefef",
+		background_image: JSS.linearGradient("white 75%", "#efefef"),
+		font_size: "14px",
+		padding: "10px 15px"
+	},
+	
+	".content-footer": {
+		border_top: "dotted silver 1px",
+		font_size: "14px",
+		padding: "10px 20px",
+		a: {
+			border_radius: 5,
+			padding: "5px 3px 2px 3px",
+			"&:hover": {
+				box_shadow: "0 0 5px gray"
+			}
+		}
+	},
+
+	".content-body": {
+		padding: 15,
+		min_height: 300
+	},
+
+	".content-info": {
+		background: "#CFEBFF",
+		color: _fg_color,
+		border_radius_:{
+			"bottomleft,bottomright": 10
+		},
+		border: "solid 1px " + _green,
+		border_top_width: 0,
+		padding: "5px 20px 20px",
+		margin_top: -10,
+		
+		font_size: 12,
+		label:{
+			margin_top: 10,
+			display: "block",
+			font_weight: "bold"
+		}
+	}
+
+	
+</tml:include>
+

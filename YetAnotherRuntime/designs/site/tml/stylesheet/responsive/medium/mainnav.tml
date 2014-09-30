@@ -1,0 +1,29 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#mainnav">
+
+	"#the-menu":{
+		border: "none",
+		margin: 0,
+		"li a":{
+			background: "transparent",
+			border: "none",
+			border_radius: 0,
+			"&.selected, &.selected:hover": {
+				color: "white",
+				background: _fg_color,
+				background_image: JSS.linearGradient(_fg_color + " 40%", JSS.color(_fg_color, .6))
+			},
+			"&:hover": {
+				background: [_base_color, "rgba(255, 255, 255, 0.3)"]
+			}
+		}
+	},
+
+	".addon": {
+		".search-box":{
+			input: {
+				width: 180
+			}
+		}
+	}
+
+</tml:include>

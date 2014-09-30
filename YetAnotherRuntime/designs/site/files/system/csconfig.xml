@@ -1,0 +1,23 @@
+<de.innovationgate.wga.common.beans.csconfig.v3.CSConfig>
+  <anonymousAccessLevel>-1</anonymousAccessLevel>
+  <defaultAccessLevel>-1</defaultAccessLevel>
+  <versionCompliance>wga6.0</versionCompliance>
+  <publisherOptions>
+    <de.innovationgate.wga.common.beans.csconfig.v1.PublisherOption>
+      <name>DesignEncoding</name>
+      <value>UTF-8</value>
+    </de.innovationgate.wga.common.beans.csconfig.v1.PublisherOption>
+    <de.innovationgate.wga.common.beans.csconfig.v1.PublisherOption>
+      <name>OverlayTheme</name>
+      <value>true</value>
+    </de.innovationgate.wga.common.beans.csconfig.v1.PublisherOption>
+  </publisherOptions>
+  <encoderMappings/>
+  <elementMappings/>
+  <remoteActions/>
+  <mediaKeys/>
+  <roles/>
+  <jobDefinitions/>
+  <shortcuts/>
+  <staticClasspath>false</staticClasspath>
+</de.innovationgate.wga.common.beans.csconfig.v3.CSConfig>

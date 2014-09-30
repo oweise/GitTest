@@ -1,0 +1,23 @@
+<tml:comment>
+
+	use <tml:include ref="page@base"> to include the default page layout:
+
+	+------------------------------
+	| #page
+	|	overlay:header
+	|	overlay:mainnav
+	|	overlay:content
+	|	overlay:footer
+	+------------------------------
+
+</tml:comment>
+
+<body>
+	<div id="header-background">
+		<div></div>
+	</div>
+	<tml:include ref="page@base"/>
+	<div id="footer-background">
+		<div></div>
+	</div>
+</body>

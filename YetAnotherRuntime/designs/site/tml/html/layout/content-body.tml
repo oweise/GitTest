@@ -1,0 +1,50 @@
+<tml:comment>
+
+	uses <tml:include ref="content@base"> to include default 3 column view.
+	Module content@base accepts 5 options:
+	
+	left:		content goes to left column. you may include childnav@base here
+	right:		content goes to the right column.
+	header:		section abough content. Good place to include pathnav@base.
+	body:		the main content area. If you use more then the default contenttype "standard",
+				you should include <tml:innerlayout> here.
+	footer: 	section below content. May be used for content services like "mail this", "top", etc.
+
+	layout:
+	+-----------+---------------------------------------+-----------+
+	| left		| header								| right		|
+	|			+---------------------------------------|			|
+	|			| body									|			|
+	|			|										|			|
+	|			|										|			|
+	|			|										|			|
+	|			+---------------------------------------|			|
+	|			| footer								|			|
+	+-----------+---------------------------------------+-----------+
+
+	In this module we define options "left" and "right" only.
+	The other options are expected to be defined by the calling TML (typically the innerlayout-TML of the contenttype)
+
+</tml:comment>
+
+<tml:[content@base]>
+
+	<tml:option name="left">
+		<tml:[childnav@base] o_maxlevel="5"/>
+		<div class="left-content">
+			<tml:[content-modules@base] o_section="left"/>
+		</div>		
+	</tml:option>
+
+	<tml:option name="right">
+		<tml:level from="2">
+			<tml:include ref="content-info"/>
+		</tml:level>
+		<div class="right-content">
+			<tml:[content-modules@base] o_section="right"/>
+		</div>
+	</tml:option>
+
+	<tml:option name="body"><tml:option name="body"/></tml:option>
+
+</tml:[content@base]>

@@ -1,0 +1,43 @@
+<tml:include ref="jss-to-css@base" o_scope=".langnav">
+
+	/*
+	 * positioned absolut because we assume we are in #header here
+	 */
+
+	position: "absolute",
+	top: -10,
+	right: 0,
+	background: "rgba(255,255,255, .5)",
+	padding: "3px 10px",
+	border_radius_:{
+		"bottomleft,bottomright": 10
+	},
+	
+	a: {
+		display: "block",
+		color: "white",
+		font_size: "14px",
+		text_decoration: "none",
+		
+		/*
+		 * Classes for language as text and as image.
+		 * You should hide one of them and display the otherone.
+		 */
+		
+		".langtitle": {
+			display: "none",
+			margin_left: 10,
+			"&:hover": {
+				text_shadow: "0 0 10px white"
+			}
+		},
+		".langimage": {
+			display: "block",
+			//margin_left: 5,
+			"&:hover": {
+				box_shadow: "0 0 10px white"
+			}
+		}
+	}
+
+</tml:include>

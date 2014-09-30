@@ -1,0 +1,26 @@
+<tml:include ref="jss-to-css@base" o_scope=".servicenav">
+
+	/*
+	 * positioned absolut because we assume we are in #header here
+	 */
+
+	position: "absolute",
+	bottom: 5,
+	left:  10,
+
+	a: {
+		color: "white",
+		font_size: "14px",
+		margin_right: 10,
+		text_decoration: "none",
+		
+		"&:hover": {
+			text_shadow: "0 0 10px red"
+		},
+		"&.selected": {			
+			color: "white",
+			text_shadow: "0 0 10px red"
+		}
+	}
+	
+</tml:include>

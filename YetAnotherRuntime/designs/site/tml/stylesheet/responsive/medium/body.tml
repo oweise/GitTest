@@ -1,0 +1,13 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="body">
+
+	margin: 10,
+
+	"#page": {
+		max_width: 700,		
+		margin: "10px auto 10px auto",
+		border: "solid silver 1px",
+		border_radius: 5,
+		box_shadow: "2px 2px 10px silver"
+	}
+
+</tml:include>

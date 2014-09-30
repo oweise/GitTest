@@ -1,0 +1,40 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope=".form-field">
+
+	margin: "10px 0",
+
+	"label.form-field-label": {
+		width: 100,
+		margin_top:5,
+		text_align: "right",
+		color: "gray"
+	},
+	".form-field-controls": {
+		margin_left: 110,		
+		"input[type=text], input[type=password], textarea": {
+			width: "100%"
+		},
+		"&.mode-view": {
+			padding_top: 5
+		},		
+		p: {
+			padding_top: 3
+		}
+	},
+	"&.required": {
+		"label.form-field-label": {
+			color: "black",
+			font_weight: "bold"
+		}
+	}
+	
+</tml:include>
+
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope=".form-messages">
+	border: "solid silver 1px",
+	background: "white",
+	border_radius: 5,
+	padding: 10,
+	margin: "10px 0",
+	box_shadow: "inset 0 0 5px silver",
+	color: "red"
+</tml:include>

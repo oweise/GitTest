@@ -1,0 +1,25 @@
+<tml:comment>
+
+	use <tml:include ref="mainnav@base"> to include main navigation bar.
+	Module maionnav@base inserts your option "body" inside the #mainnav div after the navigator.
+	mainnav accepts option"type" as navigator type. This is either "children" or "siblings". Default ist "children".
+	
+	layout:
+	+-----------
+	| #mainnav
+	|	+-----------+-------+-----------+-----------------------+
+	|	| item 1	| ...	| item n	|		option "body"	|
+	|	+-----------+-------+-----------+-----------------------+
+	+-----------
+
+</tml:comment>
+
+<tml:script>
+	_isSearchResult = (PAGENAME=="searchresult")
+</tml:script>
+
+<tml:[mainnav@base] context="name:home">
+	<tml:case context="name:searchresult" iscontextvalid="true" isfalse="_isSearchResult">
+		<tml:[searchbox@base] o_life-search="true"/>
+	</tml:case>
+</tml:[mainnav@base]>

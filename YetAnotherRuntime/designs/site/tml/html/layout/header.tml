@@ -1,0 +1,27 @@
+<tml:comment>
+
+	use <tml:include ref="header@base"> to include basic header div structure
+	Module header@base inserts your option "body" inside the #header div.
+
+	layout:
+	+-----------
+	| #header
+	|	option "body"
+	+-----------
+
+</tml:comment>
+
+<tml:include ref="header@base">
+
+	<tml:image doc="images" file="badge.gif" cssclass="sun"/>
+
+	<h1>
+		<a href="<tml:url context="name:home"/>" title="Home ...">
+			Springtime<span class="again">again</span>
+		</a>
+	</h1>
+	
+	<tml:include ref="langnav@base"/>
+	<tml:include ref="servicenav@base"/>
+	
+</tml:include>

@@ -1,0 +1,266 @@
+<overlayData basepluginName="de.innovationgate.basic-website-kit" basepluginVersion="1.3.0 Build 12">
+   <resource>
+      <path>tml/stylesheet/responsive/globals.tml</path>
+      <resourceData md5Hash="6nJ_EAVgqvU15FiD5LSyhA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/content.tml</path>
+      <resourceData md5Hash="plQrP23ORVyLvnqjNT-4oA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/modules.tml</path>
+      <resourceData md5Hash="vKif7Gcd9wN3JLWBSQDKaA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/childnav.tml</path>
+      <resourceData md5Hash="fc1PI9SmD4YvG0jOorROnQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/searchbox.tml</path>
+      <resourceData md5Hash="-WrVn_hQeZEwHetnJ_PXEg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/small/fonts.tml</path>
+      <resourceData md5Hash="553Zf3WXV-fbw5HnrBd5lA=="/>
+   </resource>
+   <resource>
+      <path>files/labels_en/general.properties</path>
+      <resourceData md5Hash="1B2M2Y8AsgTpgAmY7PhCfg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/inner/standard.tml</path>
+      <resourceData md5Hash="QmYQvvTJoyKYPTqN4dkKtg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/childnav.tml</path>
+      <resourceData md5Hash="9QhwSDKJ3Lu8OhOjLxhZUw=="/>
+   </resource>
+   <resource>
+      <path>scripts/tmlscript/connect.tmlscript</path>
+      <resourceData md5Hash="VSwyMH9Xwdf3Avds8_pYyg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/rtf-styles.tml</path>
+      <resourceData md5Hash="_Te6dONgC5ALjWxTzSbFxA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/langnav.tml</path>
+      <resourceData md5Hash="vYbghkLKvUucHMFQctvBJQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/styles.tml</path>
+      <resourceData md5Hash="KayOeSvRy3ULorIKttuT_A=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/fonts.tml</path>
+      <resourceData md5Hash="nmXv1Q2ZhIo2suczMFhcIQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/globals.tml</path>
+      <resourceData md5Hash="6nJ_EAVgqvU15FiD5LSyhA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/fonts.tml</path>
+      <resourceData md5Hash="IYayO2kxe6cGYd7mUnbSqA=="/>
+   </resource>
+   <resource>
+      <path>files/system/responsive.xml</path>
+      <resourceData md5Hash="p4DlSmksonqXWPnN4f0whQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/form-fields.tml</path>
+      <resourceData md5Hash="5hVhBsC2Jzkh-v-JuL0IDw=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/page.tml</path>
+      <resourceData md5Hash="Xv9G8r3Tek2IVQDi1PcQ9g=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/footer.tml</path>
+      <resourceData md5Hash="-GliKj3IUYeCNhPWP9rg5g=="/>
+   </resource>
+   <resource>
+      <path>tml/jss/vars.tml</path>
+      <resourceData md5Hash="1B2M2Y8AsgTpgAmY7PhCfg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/footer.tml</path>
+      <resourceData md5Hash="NABXa7crVAmeO1bOql0w3A=="/>
+   </resource>
+   <resource>
+      <path>tml/html/content-modules/news/settings.tml</path>
+      <resourceData md5Hash="OrBgQuqu0IB-4DP_eBP7jA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/body.tml</path>
+      <resourceData md5Hash="ihQMXac4MkP9lE2U2z88jg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/content.tml</path>
+      <resourceData md5Hash="cKY-Dc5DNb4DzCahjR_DbA=="/>
+   </resource>
+   <resource>
+      <path>tml/html/settings/default.tml</path>
+      <resourceData md5Hash="xWwmY8ubbvD6okPthCpLJQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/mainnav.tml</path>
+      <resourceData md5Hash="aVzQGSPE-pbTZt40U3tfxw=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/mainnav.tml</path>
+      <resourceData md5Hash="EhTeNkSlBA5YGtVs6JZ40Q=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/rtf.tml</path>
+      <resourceData md5Hash="Axq_vcdlPXc8NBM8-AwBwQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/body.tml</path>
+      <resourceData md5Hash="CQcwOcyJwQrjUZdit7uM2w=="/>
+   </resource>
+   <resource>
+      <path>tml/html/content-modules/news/css.tml</path>
+      <resourceData md5Hash="HeiFfyZXCCQFv2Reigebmg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/metadata/styles.metadata.xml</path>
+      <resourceData md5Hash="bGr4C265ARVGksle4iNovw=="/>
+   </resource>
+   <resource>
+      <path>scripts/tmlscript/content-events.tmlscript</path>
+      <resourceData md5Hash="KZ4ni7UIpT9lxpDGb4U9HQ=="/>
+   </resource>
+   <resource>
+      <path>tml/html/content-info.tml</path>
+      <resourceData md5Hash="pt28TB9_hEvzuE7qPJeNQg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/content.tml</path>
+      <resourceData md5Hash="5NzA2EWORHEdtCPkNRiWlg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/footer.tml</path>
+      <resourceData md5Hash="dk7fqYu-hE2RdwDDi8s9WQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/pathnav.tml</path>
+      <resourceData md5Hash="ZZ6gaLCPEJhLUhd1p1T4Qw=="/>
+   </resource>
+   <resource>
+      <path>tml/javascript/scripts.tml</path>
+      <resourceData md5Hash="LYSX3UlNMRPe5Z4L_HltuQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/header.tml</path>
+      <resourceData md5Hash="1B2M2Y8AsgTpgAmY7PhCfg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/head.tml</path>
+      <resourceData md5Hash="aoKiGwzfzU1J6V6YL_vSJg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/header.tml</path>
+      <resourceData md5Hash="DMOdeZvAAqC65TqcNOrYMg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/rtf.tml</path>
+      <resourceData md5Hash="JcVWom3IPfP3r6Px7nKwZQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/large/childnav.tml</path>
+      <resourceData md5Hash="gWB7krtiUe7qr9zkyVar5A=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/mainnav.tml</path>
+      <resourceData md5Hash="k95y_gWP2EAi00ew6WgiYA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/body.tml</path>
+      <resourceData md5Hash="GV1jNN_-pfBShhMbni5f4w=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/header.tml</path>
+      <resourceData md5Hash="hymb7rI1VAbGeR_xMUkPiw=="/>
+   </resource>
+   <resource>
+      <path>tml/mobile/layout.tml</path>
+      <resourceData md5Hash="jAygr7Twpfnm_1BwlLvXaw=="/>
+   </resource>
+   <resource>
+      <path>files/labels_de/general.properties</path>
+      <resourceData md5Hash="1B2M2Y8AsgTpgAmY7PhCfg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/content-modules/config.tml</path>
+      <resourceData md5Hash="d3d6b1sOq4XXBn-NnqLpdg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/childnav.tml</path>
+      <resourceData md5Hash="DQRpjoFR1ufsQ5bzT2Txlw=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/small/body.tml</path>
+      <resourceData md5Hash="dzg8H-2sUu4pvc5GQL8e_Q=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/header.tml</path>
+      <resourceData md5Hash="RfWxUWqNsh9WSdIeYvA2Ew=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/content-body.tml</path>
+      <resourceData md5Hash="xPryqZhfCUwAmNrIcueBkg=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/body.tml</path>
+      <resourceData md5Hash="ulojOvL0qBC7WbGxAYWC9Q=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/html.tml</path>
+      <resourceData md5Hash="AKK0ky9TGl1jAERRQs69Bg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/servicenav.tml</path>
+      <resourceData md5Hash="Ld0JDparyOjv1otEmY9cSQ=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/footer.tml</path>
+      <resourceData md5Hash="TOnwSkzgqGwEf6KnEu39LA=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/layout/content.tml</path>
+      <resourceData md5Hash="tdPIA8x8jzwowfAlPKdfmg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/form-fields.tml</path>
+      <resourceData md5Hash="5hVhBsC2Jzkh-v-JuL0IDw=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/body.tml</path>
+      <resourceData md5Hash="u657UDCPQ1IPsxXOM6Bz7g=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/content.tml</path>
+      <resourceData md5Hash="bnDlZAb9h-4TcVoFJ32rKw=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/header.tml</path>
+      <resourceData md5Hash="fheknBtnncN8dGAsVwOa7A=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/mainnav.tml</path>
+      <resourceData md5Hash="_sGdjWfdEwXVGoU0HyqNcA=="/>
+   </resource>
+   <resource>
+      <path>tml/html/layout/mainnav.tml</path>
+      <resourceData md5Hash="OWJIvRKrr7G_u5MTArymHg=="/>
+   </resource>
+   <resource>
+      <path>tml/stylesheet/responsive/medium/footer.tml</path>
+      <resourceData md5Hash="L3yRBdyRaeROjyhabCJkIQ=="/>
+   </resource>
+   <resource>
+      <path>tml/html/content-modules/news/render.tml</path>
+      <resourceData md5Hash="u-fyfStZnPk5sxUTKhu6Hw=="/>
+   </resource>
+</overlayData>

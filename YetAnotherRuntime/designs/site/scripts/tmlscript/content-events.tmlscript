@@ -1,0 +1,7 @@
+this.createDefaults = function(){
+	content().setItemValue("headline", TITLE);
+	content().writeExtensionData("content-modules", '{\
+	    "content":[{"id":"cm_rtf_default","title":"Richtext","module_id":"cm_rtf","children":[]}]\
+	}');
+	
+}

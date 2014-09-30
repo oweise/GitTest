@@ -1,0 +1,15 @@
+<tml:script>
+	/*
+	 * set global vars to be used in included styles:
+	 */
+	 
+	 _page_width = 1000;
+	 
+	 _base_color = "#ffbf44";
+	 _base_color_light = "#ffdd8c";
+	 _base_color_dark = "#bf9b56";
+
+	_fg_color = "#87a1d4";
+	 
+</tml:script>
+

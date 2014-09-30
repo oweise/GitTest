@@ -1,0 +1,22 @@
+<tml:comment>
+
+	use <tml:include ref="footer@base"> to include basic footer div structure
+	Module footer@base inserts your option "body" inside the #footer div.
+
+	layout:
+	+-----------
+	| #footer
+	|	option "body"
+	+-----------
+
+</tml:comment>
+
+<tml:include ref="footer@base">
+	<div style="float:right">
+		Layout based on free web template design by
+		<a href="http://www.christian-pansch.de/">
+			christian-pansch.de
+		</a>
+	</div>
+	&copy; your-company
+</tml:include>

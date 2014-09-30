@@ -1,0 +1,20 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope=".childnav">
+
+	padding: 0,
+	margin_top: 5,
+	li:{
+		margin: 0,
+		a: {
+			background: "none",
+			border: "none",
+			border_bottom: "solid white 1px",
+			border_radius: 0
+		}
+	},
+
+	"> ul > li > a.selected":{	// level 1 links
+		color: "white", 	
+		background_color: _fg_color
+	}
+	
+</tml:include>

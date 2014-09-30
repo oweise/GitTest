@@ -1,0 +1,21 @@
+<tml:comment>
+	Default Settings:
+</tml:comment>
+
+<div style="padding:0 5px">
+
+	<label style="margin-top:15px"><tml:label key="settings.display-of-optional-elements@base"/>:</label>
+	<tml:script>
+		if(!isdefined("columns"))
+			tmlform.setField("columns", WGA.createList(["left","right"]));
+	</tml:script>
+	<tml:input name="columns" type="checkbox" options="{label('settings.columns.options@base')}"/>
+	<br>
+	<tml:input type="boolean" name="show_content_header" options="{label('settings.show-content-header.options@base')}" default="true"/>
+	<br>
+	<tml:input type="boolean" name="show_content_footer" options="{label('settings.show-content-footer.options@base')}" default="true"/>
+	
+	<label style="margin-top:10px"><tml:label key="settings.childnav@base"/>:</label>
+	<tml:input name="hide_children_in_nav" type="boolean" options="{label('settings.childnav.options@base')}" default="false"/>
+	
+</div>

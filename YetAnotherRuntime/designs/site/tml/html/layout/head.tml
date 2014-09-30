@@ -1,0 +1,70 @@
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	
+	<tml:[html-head@base]>
+		
+		<tml:comment>
+			The following option forces cmm-plugin to include CSS for module "voting". 
+			It is used by static module "voting" in overlay:content-info
+			Remove it, if you don't use "voting" in content-info or elsewehere
+		</tml:comment>
+		<tml:option name="static-modules">cm_voting</tml:option>
+		
+		<tml:comment>
+			The following option may be used to define global keyword for the site.
+			The keywords will be added to each page in meta tag "keywords" in addition to individul page keywords.
+
+			<tml:option name="default-keywords">
+				my,default,keywords
+			</tml:option>
+
+		</tml:comment>
+		
+		<tml:comment>
+			The default title of the site
+			If WGA Version < 6.2:
+			
+			<title><tml:metadata type="db" name="title"/> - <tml:metadata name="title"/></title>
+			
+			else if WGA version >= 6.2
+			
+			<title><tml:metadata type="db" name="title"/> - <tml:script expression="BROWSERTITLE || TITLE"/></title>
+			
+		</tml:comment>
+		<title><tml:metadata type="db" name="title"/> - <tml:metadata name="title"/></title>
+		
+		<meta name="description" content="<tml:meta name="description"/>">
+		<meta name="robots" content="index, follow">
+		
+		<tml:comment>
+			Use only if design is not responsive:
+			<meta name="viewport" content="width=1000">
+		</tml:comment>
+		
+		<tml:comment>
+			Change this meta and add your company name
+		</tml:comment>	
+		<meta name="copyright" content="your company">
+		
+		<tml:comment>
+		
+			other usefull but optional metas:
+		
+			<link rel="apple-touch-icon" href="?">		
+			<link rel="icon" href="?">
+			
+		</tml:comment>
+		
+		<tml:comment>
+			
+			// include jquery-plugins if needed:
+			<tml:option name="jquery-plugins">
+				input-placeholder,textarea-autogrow,lightbox
+			</tml:option>
+			
+		</tml:comment>
+		
+	</tml:[html-head@base]>
+	
+</head>

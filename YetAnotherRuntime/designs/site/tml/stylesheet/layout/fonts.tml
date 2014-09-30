@@ -1,0 +1,17 @@
+
+<tml:include ref="jss-to-css@base" o_scope="body">
+
+	font_: {
+		family: "Trebuchet MS,Verdana,Arial,Helvetica,sans-serif",
+		size: "14px"
+	},
+	color: "#444444",
+
+	a: {
+		color: _orange,
+		"&:hover": {
+			color: _green
+		}
+	}
+
+</tml:include>

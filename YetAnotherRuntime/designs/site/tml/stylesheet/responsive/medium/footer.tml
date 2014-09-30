@@ -1,0 +1,6 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#footer">
+
+	border_radius_bottomleft: 5,
+	border_radius_bottomright: 5
+
+</tml:include>

@@ -1,0 +1,25 @@
+<tml:include ref="jss-to-css@base" o_scope="#header">
+
+	height: 74,
+	
+	h1: {
+		color: "white",
+		padding: "10px",
+		font_size: 28,		
+		a: {
+			color: "inherit",
+			text_decoration: "none"
+		},
+		"span.again": {
+			color: "#CCE8FB",
+    		font_style: "italic"
+    	}
+	},
+	
+	"img.sun": {
+		position: "absolute",
+		top: -10,
+		right: 90
+	}
+	
+</tml:include>

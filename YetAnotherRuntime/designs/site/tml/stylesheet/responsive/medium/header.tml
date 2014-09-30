@@ -1,0 +1,28 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#header">
+
+	height: 200,
+	border_radius_: {"topleft, topright": 5},
+
+	h1: {
+		font_size: 48
+	},
+	
+	".slogan": {
+		display: "block",
+		position: "absolute",
+		"right,bottom": 0,
+		width: 350,
+		padding: 20,
+		background: "rgba(255,255,255, .4)",
+		border_radius_topleft: 20,
+		h2: {
+			font_size: 24,
+			color: _fg_color,
+			font_weight: "bold"
+		},
+		p: {
+			font_style: "italic"
+		}
+	}
+	
+</tml:include>

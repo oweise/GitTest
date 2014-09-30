@@ -1,0 +1,50 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#content">
+
+	".centercol": {
+		background: "white"
+	},
+
+	".left-content": {
+		padding: "20px 10px 10px"
+	},
+	
+	".right-content": {
+		padding: 10
+	},
+
+	".content-header": {
+		background: "#efefef",
+		background_image: JSS.linearGradient("white 75%", "#efefef"),
+		font_size: "0.75em",
+		padding: 10
+	},
+	
+	".content-footer": {
+		border_top: "dotted silver 1px",
+		font_size: "0.75em",
+		padding: 10,
+		a: {
+			border_radius: 5,
+			padding: "5px 3px 2px 3px",
+			"&:hover": {
+				box_shadow: "0 0 5px gray"
+			}
+		}
+	},
+
+	".content-body": {
+		padding: 10
+	},
+
+	".content-info":{
+		background: _base_color_light,
+		padding: "5px 10px 10px",
+		font_size: "0.75em",
+		label:{
+			margin_top: 10,
+			display: "block",
+			font_weight: "bold"
+		}
+	}
+		
+</tml:include>

@@ -5,6 +5,11 @@
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>de.innovationgate.eclipse.ids.builders.WGADesignResourceValidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>de.innovationgate.eclipse.ids.natures.WGARuntime</nature>

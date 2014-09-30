@@ -1,0 +1,7 @@
+<tml:include ref="jss-to-css@base" o_scope="#footer">
+
+	padding: "80px 10px 0 10px",
+	height: 20,
+	color: _green
+
+</tml:include>

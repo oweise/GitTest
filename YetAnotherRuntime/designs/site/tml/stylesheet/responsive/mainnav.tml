@@ -1,0 +1,137 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#mainnav">
+
+	<tml:script>
+		_height = 35;
+	</tml:script>
+
+	background_color: _base_color,
+	background_image: JSS.linearGradient(JSS.color(_base_color, .95)+" 40%", _base_color_light),
+
+	"min-height,max_height,line-height": _height,
+	
+	"&.opened": {
+		max_height: 400,
+		"#the-menu": {
+			border_top: "solid white 1px",
+			margin_bottom: 1
+		}
+	},
+
+	nav:{
+		a: {
+			text_decoration: "none",
+			color: "black",
+			padding: "0 10px"
+		}
+	},
+
+	"#menu-dropdown a:hover":{
+		background: "rgba(255, 255, 255, 0.3)",
+	},
+	
+	"#the-menu":{
+		a:{
+			background: "rgba(255, 255, 255, 0.3)",
+			border: "solid white 1px",
+			border_radius: 8,
+			"&:hover": {
+				background: "rgba(255, 255, 255, 0.5)"
+			},
+			"&.selected":{
+				color: "white"
+			}
+		}
+	},
+	
+	".addon": {
+
+		margin_right: 10,
+		float: "right",
+
+		/*
+		 * Searchbox
+		 */
+		".search-box":{
+			input: {
+				width: 120,
+				line_height: "normal",
+				border: "inset gray 1px",
+				border_radius: 8,
+				padding: "2px 8px"
+			}
+		}
+						
+	}
+
+</tml:include>
+
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#live-search-result">
+	
+	position: "absolute",
+	right: 10,
+	width: "80%",	
+	max_width: 400,
+	background: "white",
+	"z-index": "110",
+	border: "solid silver 3px",
+	border_radius: 10,
+	box_shadow: "0 0 20px silver",
+	margin_top: 7,
+	font_size: 12,
+	line_height: "1.5",
+	
+	a: {
+		text_decoration: "none",
+		padding: 0,
+		display: "block",
+
+		"&:hover .entry": {
+			background: "#efefef"
+		},
+		"&:focus":{
+			outline: "none",
+			".entry": {
+				background: _fg_color,
+				color: "white"
+			}
+		},
+		".entry": {
+			padding: "2px 5px",
+			white_space: "nowrap",
+			overflow: "hidden",
+			text_overflow: "ellipsis"
+		},
+		
+		".group": {
+			font_style: "italic",
+			text_align: "right"		
+		},
+		"&.groupchange > div": {
+			padding_top: 10
+		}		
+		
+	},
+	".search-info": {
+		background: "#efefef",
+		padding: 5,
+
+		"&.top": {
+			border_bottom: "solid silver 1px",
+			border_radius_:{
+				"topleft,topright": 7
+			}
+		},
+		"&.bottom": {
+			border_top: "solid silver 1px",
+			border_radius_:{
+				"bottomleft,bottomright": 7
+			}
+		}
+	},
+	
+	".search-result": {
+		max_height: 300,
+		overflow: "auto"
+	}
+	
+</tml:include>

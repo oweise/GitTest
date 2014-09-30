@@ -1,0 +1,81 @@
+<tml:comment>
+
+	use <tml:include ref="content@base"> to include default 3 column view.
+	Module content@base accepts 5 options:
+	
+	left:		content goes to left column. you may include childnav@base here
+	right:		content goes to the right column.
+	header:		section abough content. Good place to include pathnav@base.
+	body:		the main content area. If you use more then the default contenttype "standard",
+				you should include <tml:innerlayout> here.
+	footer: 	section below content. May be used for content services like "mail this", "top", etc.
+
+	layout:
+	+-----------+---------------------------------------+-----------+
+	| left		| header								| right		|
+	|			+---------------------------------------|			|
+	|			| body									|			|
+	|			|										|			|
+	|			|										|			|
+	|			|										|			|
+	|			+---------------------------------------|			|
+	|			| footer								|			|
+	+-----------+---------------------------------------+-----------+
+
+</tml:comment>
+
+<a name="top"></a>
+<tml:include ref="content@base">
+
+	<tml:option name="right">
+		<tml:level from="2">
+			<tml:include ref="content-info"/>
+		</tml:level>
+		<div style="padding:10px">
+		
+			<tml:case haschildren="true" context="root/selectedchild" iscontextvalid="true">
+				<div class="box rtf">
+					<h1>Select ...</h1>
+					<tml:[childnav@base] o_maxlevel="3"/>
+				</div>
+			</tml:case>
+			
+			<tml:[content-modules@base] o_section="right" var="_html"/>
+			<tml:case condition="_html.replace(/\s/g, '')">
+				<div class="box">
+					<tml:item name="_html" encode="none"/>
+				</div>
+			</tml:case>
+		</div>
+	</tml:option>
+
+	<tml:option name="header">
+		<tml:level from="3">
+			<tml:[pathnav@base]/>
+		</tml:level>
+	</tml:option>
+
+	<tml:option name="footer">
+		<tml:comment>
+			Sample content footer
+		</tml:comment>
+		<div style="float:right">
+			<tml:script expression="AFW.Util.getCommonName(AUTHOR)"/>,
+			<tml:script expression="PUBLISHED||MODIFIED" format="shortDate"/>
+		</div>
+		<div>
+			<a href="#top" title="top of page ..."><tml:image doc="icons@base" file="top.png"/></a>
+			<a href="#mail" title="Send page as mail ..."><tml:image doc="icons@base" file="mail_new.png"/></a>
+			<a href="#print" title="Print page ..."><tml:image doc="icons@base" file="fileprint.png"/></a>
+		</div>
+	</tml:option>
+
+	<tml:option name="body">
+		<tml:comment>
+			<h1><tml:meta name="title"/></h1>
+		</tml:comment>
+		<tml:innerlayout/>
+		<tml:[content-modules@base]/>
+	</tml:option>
+				
+</tml:include>

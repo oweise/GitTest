@@ -1,0 +1,92 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#header">
+
+	height: 80,
+
+	background_:{
+		color: "gray",
+		image: "url(<tml:url type="file" doc="images@base" file="orange.jpg"/>)"
+	},
+	
+	h1: {
+		color: "white",
+		text_shadow: "0 0 5px black",
+		padding: "10px",
+		font_size: 36,		
+		a: {
+			color: "inherit",
+			text_decoration: "none",
+			"&:hover": {
+				text_shadow: "0 0 10px red"
+			}
+		}
+	},
+	
+	".slogan": {
+		display: "none"
+	},
+
+
+	/*
+	 * Language Navigator
+	 */
+	".langnav":{
+		position: "absolute",
+		top: 0,
+		right: 0,
+		background: "rgba(255,255,255, .5)",
+		padding: "3px 10px",
+		border_radius_bottomleft: 10,
+		
+		a: {
+			display: "block",
+			color: "white",
+			font_size: "14px",
+			text_decoration: "none",
+			
+			/*
+			 * Classes for language as text and as image.
+			 * You should hide one of them and display the otherone.
+			 */
+			
+			".langtitle": {
+				display: "none",
+				margin_left: 10,
+				"&:hover": {
+					text_shadow: "0 0 10px white"
+				}
+			},
+			".langimage": {
+				display: "block",
+				margin_left: 5,
+				"&:hover": {
+					box_shadow: "0 0 10px white"
+				}
+			}
+		}
+	},
+	
+	/*
+	 * Service Navigator
+	 */
+	".servicenav":{
+		position: "absolute",
+		bottom: 5,
+		left:  10,
+	
+		a: {
+			color: "white",
+			font_size: "14px",
+			margin_right: 10,
+			text_decoration: "none",
+			
+			"&:hover": {
+				text_shadow: "0 0 10px red"
+			},
+			"&.selected": {			
+				color: "white",
+				text_shadow: "0 0 10px red"
+			}
+		}
+	}
+	
+</tml:include>

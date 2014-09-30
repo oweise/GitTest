@@ -1,0 +1,72 @@
+<tml:include ref="jss-to-css@base" o_scope=".childnav">
+	
+	
+	a: {	// all childnav links
+		display: "block",
+		padding: "2px 10px",
+		margin: "5px 0",
+		text_decoration: "none",
+		color: "inherit",
+		
+		"&:hover": {
+			color: _fg_color
+		}
+	},
+		
+	"> ul > li": {		
+
+		"> a":{	// level 1 links
+			background: "url(<tml:url type="file" doc="images" file="li-subnavigation.gif"/>) 0 6px no-repeat",
+			padding_left: 15,
+			"&.selected": {
+				color: _fg_color 	
+			}
+		},
+
+		"> ul > li": {			
+		
+			font_size: 12,
+			
+			"> a": {	// level 2 links
+				padding_left: 35,
+				"&.selected": {
+					color: _fg_color
+				}
+			},
+			
+			"> ul > li": {
+				
+				"> a":{	// level 3 links
+					padding_left: 40,
+					"&.selected": {
+						color: _fg_color,
+						background_: {
+							image: "url(<tml:url doc="images@base" file="triangle_right_dark_blue.gif"/>)",
+							position: "25px 4px",
+							repeat: "no-repeat"
+						}
+					}
+				},
+				
+				"> ul > li": {
+					
+					"> a":{	// level 4 links
+						padding_left: 55,
+						"&.selected": {
+							color: _fg_color,
+							background_: {
+								image: "url(<tml:url doc="images@base" file="triangle_right_dark_blue.gif"/>)",
+								position: "40px 4px",
+								repeat: "no-repeat"
+							}
+						}
+					}
+				}
+				
+			}
+		
+		}
+
+	}
+	
+</tml:include>

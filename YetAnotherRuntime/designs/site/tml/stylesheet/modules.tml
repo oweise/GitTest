@@ -1,0 +1,17 @@
+<tml:include ref="jss-to-css@base" o_scope=".module">
+
+	// module styles goes here
+
+	"&.module-cm_content-box": {
+		".content-box.border .content": {
+			border_color: _base_color
+		},
+		
+		".content-box.color .content": {
+			background_color: _base_color
+		}
+	
+	}
+
+
+</tml:include>

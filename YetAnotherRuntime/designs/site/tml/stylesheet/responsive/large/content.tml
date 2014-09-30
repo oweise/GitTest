@@ -1,0 +1,19 @@
+<tml:include designdb="@afw" medium="jss" ref="toCSS" o_scope="#content">
+
+	".right-content": {
+		padding: 20
+	},
+
+	".content-body": {
+		padding: 20
+	},
+
+	".content-footer": {
+		padding: "10px 20px"
+	},
+
+	".content-info":{
+		padding: "5px 20px 20px 20px"
+	}
+
+</tml:include>

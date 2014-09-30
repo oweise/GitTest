@@ -1,0 +1,6 @@
+<tml:include ref="jss-to-css@base" o_scope="#page">
+
+	margin: "10px auto 10px auto",
+	max_width: _page_width,
+
+</tml:include>

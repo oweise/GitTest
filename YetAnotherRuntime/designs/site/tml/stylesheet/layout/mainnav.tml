@@ -1,0 +1,32 @@
+<tml:include ref="jss-to-css@base" o_scope="#mainnav">
+
+	<tml:script>
+		_height = 36;
+	</tml:script>
+
+	height: _height,
+
+	"nav a": {
+		background: "url(<tml:url type="file" doc="images" file="bg-navi.gif"/>) no-repeat",
+		width: 124,
+		height: 35,
+		margin_right: 2,
+		border_bottom: "1px solid #54A8E4",
+		text_decoration: "none",
+		color: _fg_color,
+		text_align: "center",
+		line_height: 35,
+		"&:hover": {
+			color: "#7dd55a"
+		},
+		"&.selected": {
+			background: "url(<tml:url type="file" doc="images" file="bg-navi-active.gif"/>) no-repeat",
+			border_bottom: "1px solid white",
+			color: "#7dd55a"
+		}
+	},
+
+	".addon": {
+	}
+
+</tml:include>

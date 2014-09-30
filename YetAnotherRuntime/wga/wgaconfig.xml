@@ -1,7 +1,22 @@
-<WGAConfiguration created="2014-09-30 13:58:03.638 CEST" lastModified="2014-09-30 13:58:03.640 CEST" wgaVersion="7.0.0" runWizard="false">
+<WGAConfiguration created="2014-09-30 13:58:03.638 CEST" lastModified="2014-09-30 14:46:24.780 CEST" wgaVersion="7.0.0" runWizard="false">
    <serverOptions class="java.util.LinkedHashMap">
       <option name="Basic.ServerName">YetAnotherRuntime</option>
       <option name="Basic.RootURL">http://localhost:8080</option>
+      <option name="Services.WebServicesEnabled">true</option>
+      <option name="Services.StartPageEnabled">true</option>
+      <option name="Services.IntegratedJMX.Enabled">false</option>
+      <option name="Services.Rest.Enabled">true</option>
+      <option name="Services.API.de.innovationgate.wga.modules.types.HashingSchemeType">de.innovationgate.utils.security.BCrypt10HashingScheme</option>
+      <option name="Services.API.de.innovationgate.wga.modules.types.ImageScalerModuleType">de.innovationgate.utils.imgscalr.ImgScalrScaler</option>
+      <option name="Services.API.de.innovationgate.wga.modules.types.MimeTypeSpecificImageScalerFactoryModuleType">de.innovationgate.utils.imgscalr.ImgScalrScalerFactory</option>
+      <option name="Log.ApplogLevel">INFO</option>
+      <option name="Log.WarningsEnabled">true</option>
+      <option name="Log.WarningsInTML">html</option>
+      <option name="Log.WarningsInApplog">false</option>
+      <option name="Cache.WebTMLSize">10000</option>
+      <option name="Encoding.Output">UTF-8</option>
+      <option name="Encoding.Design">UTF-8</option>
+      <option name="Resources.DefaultDB">site</option>
    </serverOptions>
    <administrators class="java.util.ArrayList">
       <administrator uid="7a34eb8f514c2751eeeb7f7d9a9539a8" username="admin" password="QEA+I66gjUZXMuVmmb2rN4QvJow=" encoding="hash"/>
@@ -50,6 +65,7 @@
       </personalisationAgentExclusions>
    </personalisationConfiguration>
    <designConfiguration>
+      <defaultEncoding>ISO-8859-1</defaultEncoding>
       <pollingInterval>1</pollingInterval>
       <throttlingEnabled>false</throttlingEnabled>
       <throttlingPeriodMinutes>10</throttlingPeriodMinutes>
@@ -77,7 +93,41 @@
       </domain>
    </domains>
    <databaseServers class="java.util.ArrayList"/>
-   <contentDatabases class="java.util.ArrayList"/>
+   <contentDatabases class="java.util.ArrayList">
+      <database class="de.innovationgate.wga.config.ContentStore" uid="b7827d1bd8395be7d25db5616232383c" enabled="true" lazyConnecting="false" key="site">
+         <dbServer>SINGLETON-de.innovationgate.wgpublisher.servers.HsqlDefaultDatabaseServer</dbServer>
+         <implClassName>de.innovationgate.webgate.api.hsql.WGDatabaseImpl</implClassName>
+         <databaseOptions class="java.util.LinkedHashMap">
+            <option name="Path">site</option>
+         </databaseOptions>
+         <domain>default</domain>
+         <title>site</title>
+         <clientRestrictionsEnabled>false</clientRestrictionsEnabled>
+         <clientRestrictions class="java.util.ArrayList"/>
+         <fieldMappings class="java.util.ArrayList"/>
+         <publisherOptions class="java.util.LinkedHashMap"/>
+         <design>
+            <options class="java.util.LinkedHashMap"/>
+            <source>plugin</source>
+            <name>basic-website-kit</name>
+         </design>
+         <overlay>
+            <options class="java.util.LinkedHashMap"/>
+            <source>fs-designs</source>
+            <name>site</name>
+         </overlay>
+         <defaultLanguage>de</defaultLanguage>
+         <luceneIndexConfiguration enabled="false">
+            <itemRules class="java.util.ArrayList">
+               <luceneIndexItemRule itemExpression="*" indexType="fulltext" sortable="false" contentType="plaintext" boost="1.0"/>
+            </itemRules>
+            <fileRules class="java.util.ArrayList">
+               <luceneIndexFileRule filePattern="*" fileSizeLimit="0" includedInAllContent="false" boost="1.0"/>
+            </fileRules>
+            <indexEnhancers class="java.util.ArrayList"/>
+         </luceneIndexConfiguration>
+      </database>
+   </contentDatabases>
    <filterMappings class="java.util.ArrayList"/>
    <schedulerConfiguration>
       <jobs class="java.util.ArrayList"/>

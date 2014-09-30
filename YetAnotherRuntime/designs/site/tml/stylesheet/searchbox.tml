@@ -1,0 +1,87 @@
+<tml:include ref="jss-to-css@base" o_scope=".search-box">
+
+	/*
+	 * positioned absolut because we assume we are in #mainnav here
+	 */
+
+	position: "absolute",
+	right: 28,
+	bottom: 5,
+	input: {
+		width: 180,
+		border: "inset gray 1px",
+		height: 22,
+		border_radius: 8,
+		padding: "0px 8px"
+	}
+	
+</tml:include>
+
+<tml:include ref="jss-to-css@base" o_scope="#live-search-result">
+	
+	position: "absolute",
+	right: 0,
+	width: 400,
+	background: "white",
+	"z-index": "10",
+	border: "solid silver 3px",
+	border_radius: 10,
+	box_shadow: "0 0 20px silver",
+	margin_top: 7,
+	font_size: 12,
+	
+	a: {
+		text_decoration: "none",
+		padding: 0,
+		display: "block",
+
+		"&:hover .entry": {
+			background: "#efefef"
+		},
+		"&:focus":{
+			outline: "none",
+			".entry": {
+				background: _fg_color,
+				color: "white"
+			}
+		},
+		".entry": {
+			padding: "2px 5px",
+			white_space: "nowrap",
+			overflow: "hidden",
+			text_overflow: "ellipsis"
+		},
+		
+		".group": {
+			font_style: "italic",
+			text_align: "right"		
+		},
+		"&.groupchange > div": {
+			padding_top: 10
+		}		
+		
+	},
+	".search-info": {
+		background: "#efefef",
+		padding: 5,
+
+		"&.top": {
+			border_bottom: "solid silver 1px",
+			border_radius_:{
+				"topleft,topright": 7
+			}
+		},
+		"&.bottom": {
+			border_top: "solid silver 1px",
+			border_radius_:{
+				"bottomleft,bottomright": 7
+			}
+		}
+	},
+	
+	".search-result": {
+		max_height: 300,
+		overflow: "auto"
+	}
+	
+</tml:include>
