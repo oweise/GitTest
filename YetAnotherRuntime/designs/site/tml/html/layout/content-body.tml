@@ -37,7 +37,7 @@
 	</tml:option>
 
 	<tml:option name="right">
-		<tml:level from="2">
+		<tml:level from="2" to="4">
 			<tml:include ref="content-info"/>
 		</tml:level>
 		<div class="right-content">
