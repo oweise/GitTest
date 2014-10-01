@@ -36,7 +36,7 @@
 			<tml:case haschildren="true" context="root/selectedchild" iscontextvalid="true">
 				<div class="box rtf">
 					<h1>Select ...</h1>
-					<tml:[childnav@base] o_maxlevel="3"/>
+					<tml:[childnav@base] o_maxlevel="4"/>
 				</div>
 			</tml:case>
 			
