@@ -28,7 +28,7 @@
 <tml:include ref="content@base">
 
 	<tml:option name="right">
-		<tml:level from="2">
+		<tml:level from="2" to="4">
 			<tml:include ref="content-info"/>
 		</tml:level>
 		<div style="padding:10px">
