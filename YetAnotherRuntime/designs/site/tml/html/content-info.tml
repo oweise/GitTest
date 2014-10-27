@@ -1,4 +1,4 @@
-<div class="content-info clearfix">
+<div class="content-info clearfix right left">
 	<label><tml:label key="author@base"/>:</label>
 	<tml:script expression="AFW.Util.getCommonName(AUTHOR)"/>
 	<tml:case condition="PAGEPUBLISHED">
