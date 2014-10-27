@@ -1,5 +1,9 @@
 showoptions: "all",
+<<<<<<< Upstream, based on origin/master
 tableStyleList: ["Gray|grayish"],
+=======
+tableStyleList: ["Gray|greenish"],
+>>>>>>> 8709d21 Greenish
 trStyleList: ["Black|table-header"],
 tdStyleList: ["Green|green"],
 paragraphStyleList: ["Quote|quote"],
