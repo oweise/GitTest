@@ -1,5 +1,5 @@
 showoptions: "all",
-tableStyleList: ["Gray|gray"],
+tableStyleList: ["Gray|grayish"],
 trStyleList: ["Black|table-header"],
 tdStyleList: ["Green|green"],
 paragraphStyleList: ["Quote|quote"],
