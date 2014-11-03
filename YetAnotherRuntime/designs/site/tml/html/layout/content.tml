@@ -31,7 +31,7 @@
 		<tml:level from="2" to="1">
 			<tml:include ref="content-info"/>
 		</tml:level>
-		<div style="padding:10px">
+		<div style="padding:20px">
 		
 			<tml:case haschildren="true" context="root/selectedchild" iscontextvalid="true">
 				<div class="box rtf">
