@@ -23,7 +23,7 @@
 		
 		<tml:comment>
 			The default title of the site
-			If WGA Version < 6.2:
+			If WGA Version < 6.3:
 			
 			<title><tml:metadata type="db" name="title"/> - <tml:metadata name="title"/></title>
 			
