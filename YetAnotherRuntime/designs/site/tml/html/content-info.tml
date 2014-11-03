@@ -5,7 +5,7 @@
 		<label><tml:label key="published@base"/>:</label>
 		<div><tml:metadata name="pagepublished" format="mediumDateTime"/></div>
 	</tml:case>
-	<div style="margin-top:20px">
+	<div style="margin-top:30px">
 		<tml:include designdb="plugin-cm-modules" ref="include" o_module="cm_voting"/>
 	</div>				
 </div>
