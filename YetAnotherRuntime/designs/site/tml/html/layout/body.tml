@@ -18,6 +18,6 @@
 	</div>
 	<tml:include ref="page@base"/>
 	<div id="footer-background">
-		<div></div>
+		<div>Footer-Background</div>
 	</div>
 </body>
